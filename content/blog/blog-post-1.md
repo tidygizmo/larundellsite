@@ -1,11 +1,14 @@
 ---
-title: "Amazon increase income 1.5 Million"
+title: Amazon increase income 1.8 Million
 date: 2019-05-12T12:14:34+06:00
-image: "images/blog/minimal-1.jpg"
-description: "This is meta description."
-categories: ["Development"]
-tags: ["Design","agency"]
-type : "post"
+image: images/blog/minimal-1.jpg
+description: This is meta description.
+categories:
+  - Development
+tags:
+  - Design
+  - agency
+type: post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
