@@ -46,6 +46,9 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Title', name: 'title', widget: 'string' } 
       - { label: 'Image', name: 'image', widget: 'image' }
 
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Categories', name: 'categories', widget: 'list' }
+
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
