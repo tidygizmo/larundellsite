@@ -6,6 +6,13 @@ media_folder: "static/images/blog"
 public_folder: "/images/uploads"
 
 collections: # A list of collections the CMS should be able to edit
+- name: 'about' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'About' # Used in the UI, ie.: "New Post"
+    folder: 'content/about' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' } 
   - name: 'blog' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Blog' # Used in the UI, ie.: "New Post"
     folder: 'content/blog' # The path to the folder where the documents are stored
@@ -18,6 +25,13 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Categories', name: 'categories', widget: 'list' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Body', name: 'body', widget: 'markdown' } 
+- name: 'comtact' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Contact' # Used in the UI, ie.: "New Post"
+    folder: 'content/contact' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' } 
   - name: 'portfolio' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Portfolio' # Used in the UI, ie.: "New Post"
     folder: 'content/portfolio' # The path to the folder where the documents are stored
