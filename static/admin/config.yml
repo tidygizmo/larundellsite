@@ -48,6 +48,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Categories', name: 'categories', widget: 'list' }
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
 
 new_page_extension: md
 auto_deploy: false
