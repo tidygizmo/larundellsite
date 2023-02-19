@@ -15,6 +15,9 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Title', name: 'title', widget: 'string' } 
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Categories', name: 'categories', widget: 'list' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Body', name: 'body', widget: 'markdown' } 
   - name: 'blog' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Blog' # Used in the UI, ie.: "New Post"
     folder: 'content/blog' # The path to the folder where the documents are stored
