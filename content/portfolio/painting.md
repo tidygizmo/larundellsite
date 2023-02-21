@@ -1,6 +1,6 @@
 ---
 title: "Painting"
-image: "images/portfolio/bag.jpg"
+image: "images/bag.jpg"
 client: "Thomson"
 year: "2019"
 description: "This is meta description."

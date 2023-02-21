@@ -1,6 +1,6 @@
 ---
 title: "Modern web"
-image: "images/portfolio/bottle.jpg"
+image: "images/bottle.jpg"
 client: "Thomson"
 year: "2019"
 description: "This is meta description."
