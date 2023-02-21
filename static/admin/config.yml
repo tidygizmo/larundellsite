@@ -44,14 +44,14 @@ collections: # A list of collections the CMS should be able to edit
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields: # The fields each document in this collection have
       - { label: "Title", name: "title", widget: "string" } 
-      - label: "Featured Image"
+      - { label: "Featured Image"
         name: "thumbnail"
         widget: "image"
         choose_url: true
         default: "images/portfolio"
         media_library:
           config:
-            multiple: false
+            multiple: false }
       - { label: "Client", name: "client", widget: "string"}
       - { label: "Year", name: "year", widget: "string" } 
       - { label: "Description", name: "description", widget: "string" }
