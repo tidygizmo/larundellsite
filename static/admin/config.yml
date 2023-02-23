@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'Birthdate', name: 'birthdate', widget: 'date', default: '', format: 'MMM Do YY'}
           - { label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false } 
-          - { label: "Manual PDF"
+          - { label: "Manual PDF",
             name: "manual_pdf",
             widget: "file",
             default: "images",
