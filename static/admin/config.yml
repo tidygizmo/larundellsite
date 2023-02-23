@@ -7,7 +7,7 @@ public_folder: "images"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "pages"
-    - label: "Pages"
+    label: "Pages"
     files:
       - label: "About Page"
         name: "about"
