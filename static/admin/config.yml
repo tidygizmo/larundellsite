@@ -16,9 +16,6 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Bio, name: bio, widget: markdown}
-      - label: 'Code'
-        name: 'code'
-        widget: 'code'
       - label: "Homepage"
         name: "homepage"
         file: "data/homepage.yml"
