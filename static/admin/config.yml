@@ -14,11 +14,11 @@ collections: # A list of collections the CMS should be able to edit
         file: "data/about.yml"
         extension: "yml"
         fields:
-          - {label: Title, name: title, widget: string}
           - {label: Bio, name: bio, widget: markdown}
       - label: "Homepage"
         name: "homepage"
         file: "data/homepage.yml"
+        extension: "yml"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
