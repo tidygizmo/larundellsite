@@ -14,14 +14,7 @@ collections: # A list of collections the CMS should be able to edit
         file: "data/about.yml"
         extension: "yml"
         fields:
-          - {label: "Draft", name: "draft", widget: "boolean", default: true}
-          - {label: 'Code', name: 'code', widget: 'code'} 
-          - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
-          - { label: 'Birthdate', name: 'birthdate', widget: 'date', default: '', format: 'MMM Do YY'}
-          - { label: "Start time", name: "start", widget: "datetime", default: "", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL", picker_utc: false } 
-          - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-          - { label: Bio, name: bio, widget: markdown }
-          
+          - { label: 'Code', name: 'code', widget: 'code'}     
       - label: "Homepage"
         name: "homepage"
         file: "data/homepage.yml"
