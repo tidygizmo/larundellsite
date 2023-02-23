@@ -12,16 +12,13 @@ collections: # A list of collections the CMS should be able to edit
       - label: "About Page"
         name: "about"
         file: "data/about.yml"
+        extension: "yml"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Bio, name: bio, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
+      - label: 'Code'
+        name: 'code'
+        widget: 'code'
       - label: "Homepage"
         name: "homepage"
         file: "data/homepage.yml"
