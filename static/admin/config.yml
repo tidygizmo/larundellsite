@@ -23,7 +23,7 @@ collections: # A list of collections the CMS should be able to edit
             name: "manual_pdf",
             widget: "file",
             default: "images",
-            media_library:
+            media_library:,
               config:
                 multiple: true }
           - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
@@ -32,7 +32,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: "image",
               choose_url: true,
               default: "/uploads/chocolate-dogecoin.jpg",
-              media_library:
+              media_library:,
                 config:
                   multiple: true }
           - { label: Bio, name: bio, widget: markdown }
