@@ -11,10 +11,8 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - label: "About Page"
         name: "about"
-        file: "data/about.yml"
-        extension: "yml"
-        fields:
-          - { label: 'Code', name: 'code', widget: 'code'}     
+        widget: "file" 
+        default: "data/about.yml"
       - label: "Homepage"
         name: "homepage"
         file: "data/homepage.yml"
