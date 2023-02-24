@@ -81,6 +81,11 @@ weight = 6
   url = "#"
   weight = 2
 
+[[menu.main]]
+name = "Another Page"
+url = "another-page"
+weight = 7 
+
 
 
 # default parameters
@@ -88,7 +93,7 @@ weight = 6
 home = "Home"
 logo = "images/logo.png"
 # contact info
-mobile = "+880 2544 658 256"
+mobile = "555 555 555 555"
 email = "steve.fruits@email.com"
 address = "125/A, CA Commercial Area, California, USA"
 # meta description
