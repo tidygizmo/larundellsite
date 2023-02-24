@@ -8,24 +8,11 @@ public_folder: "images"
 collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
-    files:
+    folder: data/about.yml 
       - label: "About Page"
         name: "about"
         widget: "file" 
         default: "data/about.yml"
-      - label: "Homepage"
-        name: "homepage"
-        file: "data/homepage.yml"
-        extension: "yml"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string} 
   - name: 'blog' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Blog' # Used in the UI, ie.: "New Post"
     folder: 'content/blog' # The path to the folder where the documents are stored
