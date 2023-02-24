@@ -6,13 +6,6 @@ media_folder: "static/images/" # Folder where user uploaded files should go
 public_folder: "images" 
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "pages"
-    label: "Pages"
-    folder: data/about.yml 
-      - label: "About Page"
-        name: "about"
-        widget: "file" 
-        default: "data/about.yml"
   - name: 'blog' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Blog' # Used in the UI, ie.: "New Post"
     folder: 'content/blog' # The path to the folder where the documents are stored
